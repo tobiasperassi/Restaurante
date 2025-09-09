@@ -1,0 +1,94 @@
+/* Navbar amarela */
+.navbar { 
+    background-color: #f6b319;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Título verde */
+#titulo {
+    color: #21693f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item:hover{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.navbar small {
+    color: #000; 
+    font-size: 0.8rem;
+}
+
+.nav-link {
+    color: #000 !important; 
+    font-weight: 600;
+    display: flex; 
+    align-items: center;
+    gap: 8px;  
+}
+#telefone {
+    background-color: #f6b319;
+    color: #8b0a31; 
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+body {
+    background-color: #61122f !important;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+@media (max-width: 991px) {
+    #navbarSupportedContent {
+        text-align: center;
+    }
+
+    .nav-link {
+        color: #61122f !important;
+        justify-content: center;
+    }
+
+    #telefone {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.hero-img {
+    width: 90%;
+    max-height: 650px;    
+    border-radius: 20px;     
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3); 
+    object-fit: cover;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 250px; 
+}
+
+.map-frame {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+.container-fluid {
+  max-width: 90%;
+}

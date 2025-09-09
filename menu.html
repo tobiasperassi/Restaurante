@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Restaurante</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" id="container-principal">
+            <div class="d-flex flex-column">
+                <a class="navbar-brand mb-0" href="#" id="titulo">David Chu's China Bistro</a>
+                <small class="text-dark">Kosher Certified</small>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                    <hr id="linha-nav">
+                    <li class="nav-item dropdown">
+                        <img src="casa.png" width="20px" height="20px">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <img src="garfo-e-faca.png" width="20px" height="20px">
+                        <a class="nav-link active" aria-current="page" href="categorias.html">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <img src="botao-de-informacao.png" width="20px" height="20px">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <img src="estrela-dos-ventos.png" width="20px" height="20px">
+                        <a class="nav-link" href="#">Awards</a>
+                    </li>
+                </ul>
+                <span class="ms-3 fw-bold" id="telefone">410-602-5008</span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <img src="imagem-restaurante.jpg" alt="Restaurante" class="img-fluid hero-img">
+    </section>
+
+    <div class="container-fluid my-5 px-5">
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 text-center shadow-lg">
+                    <img src="imagem-comida1.jpg" class="card-img-top" alt="Menu">
+                    <div class="card-body">
+                        <h5 class="card-title">MENU</h5>
+                        <p class="card-text">Explore our delicious menu items.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 text-center shadow-lg">
+                    <img src="imagem-comida2.jpg" class="card-img-top" alt="Specials">
+                    <div class="card-body">
+                        <h5 class="card-title">SPECIALS</h5>
+                        <p class="card-text">Check out today’s special dishes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mapa -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card h-100 text-center shadow-lg">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752455000174!2d-76.7116881!3d39.36359029999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1spt-BR!2sbr!4v1757425166434!5m2!1spt-BR!2sbr"
+                        class="map-frame"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">MAP</h5>
+                        <p class="card-text">Find us on the map and visit today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+            <!-- Coluna 1 - Horários -->
+            <div class="col-md-4 mb-4">
+                <h5>Hours:</h5>
+                <p class="mb-1">Sun-Thu: 11:15am - 10:00pm</p>
+                <p class="mb-1">Fri: 11:15am - 2:30pm</p>
+                <p class="mb-0">Saturday Closed</p>
+            </div>
+
+            <!-- Coluna 2 - Endereço -->
+            <div class="col-md-4 mb-4">
+                <h5>Address:</h5>
+                <p class="mb-1">7105 Reisterstown Road</p>
+                <p class="mb-1">Baltimore, MD 21215</p>
+                <small class="text-success d-block">
+                * Delivery area within 3–4 miles, with minimum order of $20 plus $3 charge for all deliveries.
+                </small>
+            </div>
+
+            <!-- Coluna 3 - Depoimentos -->
+            <div class="col-md-4 mb-4">
+                <blockquote class="fst-italic mb-3">
+                "The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"
+                </blockquote>
+                <blockquote class="fst-italic mb-0">
+                "Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"
+                </blockquote>
+            </div>
+
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
