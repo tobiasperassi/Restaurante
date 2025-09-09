@@ -1,0 +1,65 @@
+
+.single-menu h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.single-menu p.text-muted {
+  color: #ddd !important;
+  font-size: 1rem;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.menu-card .card-body {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.menu-card h5 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.menu-card p {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.menu-card .badge {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #28a745;
+}
+
+.menu-card .price {
+  margin-top: auto;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.col-md-6 h5,
+.col-md-6 p,
+.col-md-6 .fw-bold {
+  color: #fff !important;
+}

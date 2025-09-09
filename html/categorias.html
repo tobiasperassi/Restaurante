@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="categorias.css">
+    <link rel="stylesheet" href="/css/categorias.css">
     <title>Restaurante</title>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid" id="container-principal">
             <div class="d-flex flex-column">
-                <a class="navbar-brand mb-0" href="#" id="titulo">David Chu's China Bistro</a>
+                <a class="navbar-brand mb-0" href="menu.html" id="titulo">David Chu's China Bistro</a>
                 <small class="text-dark">Kosher Certified</small>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
+            <!-- Dropdown (Com os botões da direita) -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 text-center">
                     <hr id="linha-nav">
                     <li class="nav-item dropdown">
-                        <img src="casa.png" width="20px" height="20px">
+                        <img src="/Imagens/casa.png" width="20px" height="20px">
                         <a class="nav-link" href="menu.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <img src="garfo-e-faca.png" width="20px" height="20px">
+                        <img src="/Imagens/garfo-e-faca.png" width="20px" height="20px">
                         <a class="nav-link active" aria-current="page" href="categorias.html">Menu</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <img src="botao-de-informacao.png" width="20px" height="20px">
+                        <img src="/Imagens/botao-de-informacao.png" width="20px" height="20px">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <img src="estrela-dos-ventos.png" width="20px" height="20px">
+                        <img src="/Imagens/estrela-dos-ventos.png" width="20px" height="20px">
                         <a class="nav-link" href="#">Awards</a>
                     </li>
                 </ul>
@@ -44,69 +46,66 @@
         </div>
     </nav>
 
-
-
+    <!-- Produtos -->
     <section class="menu-categories py-5">
         <div class="container">
             <h2 class="text-center text-light mb-3">Menu Categories</h2>
             <p class="text-center text-light mb-5">
             Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
             </p>
-
             <div class="row g-4">
-            <!-- Repetir 8 vezes -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <a href="singleMenu.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Lunch" class="img-fluid">
+                <img src="/Imagens/imagem-categorias.jpg" alt="Lunch" class="img-fluid">
                 <div class="category-title">LUNCH</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="dinner.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Dinner" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem2.jpg" alt="Dinner" class="img-fluid">
                 <div class="category-title">DINNER</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="soups.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Soups" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem3.jpg" alt="Soups" class="img-fluid">
                 <div class="category-title">SOUPS</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="appetizers.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Appetizers" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem4.jpg" alt="Appetizers" class="img-fluid">
                 <div class="category-title">APPETIZERS</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="desserts.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Desserts" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem5.png" alt="Desserts" class="img-fluid">
                 <div class="category-title">DESSERTS</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="drinks.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Drinks" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem6.jpg" alt="Drinks" class="img-fluid">
                 <div class="category-title">DRINKS</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="specials.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Specials" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem7.jpg" alt="Specials" class="img-fluid">
                 <div class="category-title">SPECIALS</div>
                 </a>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <a href="chef.html" class="category-card">
-                <img src="imagem-categorias.jpg" alt="Chef Specials" class="img-fluid">
+                <a href="singleMenu.html" class="category-card">
+                <img src="/Imagens/imagem2.jpg" alt="Chef Specials" class="img-fluid">
                 <div class="category-title">CHEF</div>
                 </a>
             </div>
@@ -114,15 +113,10 @@
         </div>
     </section>
 
-
-
-
-
     <footer class="bg-dark text-light py-5 mt-5">
         <div class="container">
             <div class="row text-center text-md-start">
 
-            <!-- Coluna 1 - Horários -->
             <div class="col-md-4 mb-4">
                 <h5>Hours:</h5>
                 <p class="mb-1">Sun-Thu: 11:15am - 10:00pm</p>
@@ -130,7 +124,6 @@
                 <p class="mb-0">Saturday Closed</p>
             </div>
 
-            <!-- Coluna 2 - Endereço -->
             <div class="col-md-4 mb-4">
                 <h5>Address:</h5>
                 <p class="mb-1">7105 Reisterstown Road</p>
@@ -140,7 +133,6 @@
                 </small>
             </div>
 
-            <!-- Coluna 3 - Depoimentos -->
             <div class="col-md-4 mb-4">
                 <blockquote class="fst-italic mb-3">
                 "The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"
@@ -153,8 +145,6 @@
             </div>
         </div>
     </footer>
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="/Imagens/https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
