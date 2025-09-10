@@ -35,6 +35,8 @@ function buscarProdutos(){
                     `
                     i++
                 })
+                document.getElementById("title").innerHTML = data[categoria].category.name + " Menu"
+                document.getElementById("special-instruction").innerHTML = data[categoria].category.special_instructions
                 document.getElementById("produtos-container").innerHTML = html
             }
         })

@@ -28,3 +28,18 @@ function buscarCategorias(){
     .catch(err => console.error("Erro ao buscar categorias:", err));
 }
 buscarCategorias()
+
+function randomCategory(){
+    fetch("https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json")
+        .then(response => response.json())
+        .then(data =>{
+            if(data.error){
+                console.log("Não foi possível acessar a categoria especial!")
+            } else{
+                const categorias = Object.keys(data)
+                const randomIndex = Math.floor(Math.random() * categorias.length)
+                const categoriaEscolhida = categorias[randomIndex]
+                window.location.href = `html/singleMenu.html?categoria=${categoriaEscolhida}`
+            }
+        })
+}

@@ -91,3 +91,12 @@ body {
 .container-fluid {
   max-width: 90%;
 }
+
+#cursor {
+    cursor: pointer
+} 
+
+#cursor:hover{
+    scale: 105%;
+    transition-duration: 0.3s;
+}
