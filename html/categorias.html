@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/categorias.css">
+    <script src="../script.js"></script>
     <title>Restaurante</title>
 </head>
 <body>
@@ -52,71 +53,16 @@
 
     <!-- Produtos -->
     <section class="menu-categories py-5">
-        <div class="container">
+        <div class="container" >
             <h2 class="text-center text-light mb-3">Menu Categories</h2>
             <p class="text-center text-light mb-5">
-            Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
+                Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
             </p>
-            <div class="row g-4">
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem-categorias.jpg" alt="Lunch" class="img-fluid">
-                <div class="category-title">LUNCH</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem2.jpg" alt="Dinner" class="img-fluid">
-                <div class="category-title">DINNER</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem3.jpg" alt="Soups" class="img-fluid">
-                <div class="category-title">SOUPS</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem4.jpg" alt="Appetizers" class="img-fluid">
-                <div class="category-title">APPETIZERS</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem5.png" alt="Desserts" class="img-fluid">
-                <div class="category-title">DESSERTS</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem6.jpg" alt="Drinks" class="img-fluid">
-                <div class="category-title">DRINKS</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem7.jpg" alt="Specials" class="img-fluid">
-                <div class="category-title">SPECIALS</div>
-                </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-                <a href="singleMenu.html" class="category-card">
-                <img src="../Imagens/imagem2.jpg" alt="Chef Specials" class="img-fluid">
-                <div class="category-title">CHEF</div>
-                </a>
-            </div>
-            </div>
+            <div class="row g-4" id="categorias-container"></div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-dark text-light py-5 mt-5">
         <div class="container">
             <div class="row text-center text-md-start">
